@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player - Tulus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- KIRI: COVER + INFO LAGU -->
+    <div class="left">
+        <img src="assets/cover.jpg" class="cover" alt="Cover Lagu">
+
+        <div class="info">
+            <h3 class="song-title">Monokrom</h3>
+            <p class="artist">Tulus – Monokrom</p>
+
+            <input type="range" id="progress" value="0">
+
+            <audio id="audio" src="assets/musik.mp3"></audio>
+        </div>
+    </div>
+
+    <!-- KANAN: LIRIK -->
+    <div class="right">
+        <h2>Diberi Waktu</h2>
+
+        <div class="lyrics-container">
+            <div class="lyrics">
+                <p>Jika aku pergi lebih dulu</p>
+                <p>Jangan lupakan aku</p>
+                <p>Ini lagu untukmu</p>
+                <p>Ungkapan terima kasihku</p>
+                <p>Atas semua waktu yang jatuh</p>
+                <p>Bersama kita dulu</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

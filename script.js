@@ -25,3 +25,12 @@ audio.onplay = () => {
 audio.onpause = () => {
     lyrics.style.animationPlayState = "paused";
 };
+playBtn.onclick = () => {
+    audio.play();
+    lyrics.style.animationPlayState = "running";
+};
+
+pauseBtn.onclick = () => {
+    audio.pause();
+    lyrics.style.animationPlayState = "paused";
+};
